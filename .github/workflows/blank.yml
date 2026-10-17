@@ -1,27 +1,21 @@
+```yaml
 name: Hello Github
-on: 
+
+on:
   push:
-    branches: 
+    branches:
       - main
       - develop
-      - feature/*
+      - 'feature/*'
+
   pull_request:
-    branches: 
+    branches:
       - main
+
 jobs:
   build:
-   runs-on: ubuntu-latest
-   steps:
-     - name: build the app
-       run: echo "buid the app"
-
-       
-   
-   
-
-       
- 
-        
-        
-      
-  
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build the app
+        run: echo "Build the app"
+```
