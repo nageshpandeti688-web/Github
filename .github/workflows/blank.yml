@@ -1,5 +1,13 @@
 name: Hello Github
-on: push
+on: 
+  push:
+    branches: 
+      - main
+      - develop
+      - feature/*
+  pull_request:
+    branches: 
+      - main
 jobs:
   build:
    runs-on: ubuntu-latest
