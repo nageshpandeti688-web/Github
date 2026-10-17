@@ -5,7 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: hello step1
-        run: echo "welcome to github-actions"
+        run: |
+         echo "welcome to github-actions"
+         echo "this is line2"
+         echo "this is line3"
+        
         
       
   
