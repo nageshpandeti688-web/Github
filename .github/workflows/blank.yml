@@ -17,4 +17,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build the app
-        run: echo "Hello " ${{ var.MY_NAME}} "
+        run: echo "Hello ${{ vars.MY_NAME}} "
