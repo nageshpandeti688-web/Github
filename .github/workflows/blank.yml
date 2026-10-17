@@ -1,6 +1,4 @@
-
 name: Hello Github
-
 on:
   push:
     branches:
@@ -18,4 +16,3 @@ jobs:
     steps:
       - name: Build the app
         run: echo "Build the app"
-```
